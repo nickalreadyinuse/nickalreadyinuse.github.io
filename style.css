@@ -4,6 +4,7 @@
     --bgColor:#1C1C1C;
     --accentColor: #E6E6E6;
     --font: 'Karla', sans-serif;
+    --white:#f8f8f2;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
+    border: solid var(--white) 2px;
 }
 
 #userName{
